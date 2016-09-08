@@ -6,7 +6,7 @@ def grade():
             print "Scores:", score , ": Your grade is D"
         elif 70 <= score <= 79:
             print "Scores:", score , ": Your grade is C"
-        elif 80 <= score <= 89:
+        elif 80 <= score <= 89: # Sweet
             print "Scores:", score , ": Your grade is B"
         elif 90 <= score <= 100:
             print "Scores:", score , ": Your grade is A"
@@ -18,3 +18,4 @@ def grade():
     print "End of program, Bye!"
 
 grade()
+# looks pretty good Joshua.  It's nice that python allows you to do combined expressions like in your elif statements.
